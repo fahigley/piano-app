@@ -4,51 +4,15 @@ body {
   
 }
 
-.c,.f{
-  position: relative;
-  left: 20%;
-  width: 100px;
-  height: 500px;
-  background-color: white;
-  clip-path: polygon(45% 0,45% 68%,75% 68%,75% 100%,0 100%,0 0);
-}
-
-.cSharp,.fSharp{
-  position: absolute;
-  width: 50px;
-  left: 22%;
-  height: 340px;
-  color: white;
+#pianoDIV {
+  height: 300px;
   background-color: black;
 }
-.d,.g,.a{
-  position: relative;
-  left: 20%;
-  width: 100px;
-  height: 500px;
-  background-color: white;
-  clip-path: polygon(100% 0, 0 100%,0 0);
+
+.whiteKeys{
+  height: 300px;
 }
 
-.whitetest{
-  position: relative;
-  left: 20%;
-  width: 100px;
-  height: 500px;
-  background-color: white;
-}
-
-.blacktest{
-  position: absolute;
-  width: 50px;
-  left: 22.75%;
-  height: 340px;
-  color: white;
-  background-color: black;
-  z-index: 1;
-}
-
-.piano-container{
-  display: flex;
-  justify-content: space-between;
+.blackKey1{
+  height: 150px;
 }
